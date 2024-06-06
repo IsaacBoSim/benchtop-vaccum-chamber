@@ -1,0 +1,20 @@
+//Various Test Cases:
+
+  // //LED Test, just to make sure the LED isn't dead
+  // digitalWrite(ledPin, HIGH); // Turn on LED
+  // Serial.println("LED turned on!");
+
+  // //Pressure Sensor Tester, just making sure it can measure pressure precisely [can probably match to the current Charlottesville weather report]
+  // //Pressure Sensor Range Tester, make sure the sensor can read 0-25 PSI properly
+  // float currentPressure = mpr.readPressure();
+  // Serial.print(currentPressure);
+
+  // //Pressure Sensor Time Tester, change the pressure instantly and see how quickly the readings change based on time stamp
+  // float currentPressure = mpr.readPressure();
+  // unsigned long currentTime = millis();
+  // Serial.print(currentPressure);
+  // Serial.print(" PSI at ");
+  // Serial.print(currentTime);
+  // Serial.println(" ms");
+
+//End of Test Cases:
